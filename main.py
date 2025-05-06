@@ -11,7 +11,6 @@ while True:
         break
 winner_key = next(iter(auction_bids))
 for key in auction_bids:
-    winner_key = key
     if auction_bids[key] > auction_bids[winner_key]:
         winner_key = key
 
